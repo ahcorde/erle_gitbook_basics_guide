@@ -27,5 +27,5 @@ para cargar de nuevo.Así, la próxima vez que iniciemos no será necesario este
 
 Para comprobar que funciona hacemos:
 `status`o `watch gps_raw_int`, con este último deberían ajustarse los valores.
-También podemos hacer `screen /dev/ttyO5 57600` en el BBB y
+También podemos hacer `screen /dev/ttyO5 38000` en el BBB y
 obtendremos símbolos.

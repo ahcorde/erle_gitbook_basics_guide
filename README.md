@@ -12,7 +12,7 @@ This book is a basic tutorial when using [Erle board](http://erlerobot.com/). **
 
 
 
-![erlelogo](Logo_erle.png)
+![erlelogo](./Logo_erle.png)
 
 
 ##About

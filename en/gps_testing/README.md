@@ -29,4 +29,4 @@ to charge again.Like this, the next time we launch this command won't be neccesa
 
 To check that the GPS works do:
 `status`o `watch gps_raw_int`, with the last one the values should move and adjust.
-You can also do `screen /dev/ttyO5 57600` on the BBB and see starnge symbols.
+You can also do `screen /dev/ttyO5 38000` on the BBB and see starnge symbols.

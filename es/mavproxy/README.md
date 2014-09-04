@@ -10,7 +10,7 @@ Algunos modulos que probablemente también sean necesarios:
 
 También necesitaremos descargar el script `mavinit.scr`que contiene un conjunto de aliases muy útiles en al realización de pruebas de motores. Para descargarla hacemos lo siguiente:
 ```
-wget http/tridge.github.io/MAVProxy/files/mavinit.scr
+wget http://tridge.github.io/MAVProxy/files/mavinit.scr
 ```
 
 Es recomendable que se guarde en el directorio donde se lanzará Mavproxy, para no tener que añadir rutas.

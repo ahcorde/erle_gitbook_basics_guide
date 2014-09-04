@@ -12,7 +12,7 @@ Some odules will be, probably, necessary.
 
 Also, we need to download the  `mavinit.scr` scipt, that contains some aliases, very useful when doing motors tests.For downloading it , do the following:
 ```
-wget http/tridge.github.io/MAVProxy/files/mavinit.scr
+wget http://tridge.github.io/MAVProxy/files/mavinit.scr
 ```
 
 It is very recommendable to store it in the directory where you will launch Mavproxy, for not need to add a route.

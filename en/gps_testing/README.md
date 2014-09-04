@@ -25,8 +25,12 @@ Do :
 ```
 source ~/.bashrc
 ```
-to charge again.Like this, the next time we launch this command won't be neccesary and we will be able to launch ArduCopter with the option `-B...` indicated above.
+to charge again.Like this, the next time we launch this command won't be necessary and we will be able to launch ArduCopter with the option `-B...` indicated above.
 
-To check that the GPS works do:
-`status`o `watch gps_raw_int`, with the last one the values should move and adjust.
+To check that the GPS works do the next:
+Open a new terminal to connect to the  BBB: mavproxy.py --master tcp:192.168.7.2:6000
+
+Once you are connected, type the next commands:
+
+`status` o `watch gps_raw_int`, with the last one the values should move and adjust.
 You can also do `screen /dev/ttyO5 38000` on the BBB and see starnge symbols.

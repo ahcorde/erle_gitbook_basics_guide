@@ -51,10 +51,11 @@ If we write:`script mavinit.scr` the aliases get charget, so we can analize garp
 
 *Note:*In  `ArduCopter` case remember to change  `param set ARMING_CHECK 0`.
 
-Lastly launch the command `arm throttle` and start turning the values:
+Lastly launch the command `arm throttle`, which is used to arm the board, and start turning the values:
 - `rc all 1300`(all channels)
 - `rc 3 1450`(channel 3)
 - ...
 
+there are 8 channels in total, so you can write `rc 1 <value>´ until rc 8 <value>´
 
 Link to a video-tutorial step-by-step:https://www.youtube.com/watch?v=Mv6k5hP2yuc&feature=youtu.be

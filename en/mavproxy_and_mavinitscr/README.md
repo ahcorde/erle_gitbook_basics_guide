@@ -1,16 +1,20 @@
 # Mavproxy and mavinit.scr
 
 
-Mavproxy is a toool we will use to analize and controll the fligth logs
-[Here](http://tridge.github.io/MAVProxy/) you canf ind the download isntructions.
+Mavproxy is a tool we will use to analyse and control the flight logs
+[Here](http://tridge.github.io/MAVProxy/) you can find the download instructions.
 
-Some odules will be, probably, necessary.
-`sudo apt-get install python-opencv python-wxgtk`
-`sudo apt-get install python-wxgtk2.8`
-`sudo apt-get install python-matplotlib`
-`sudo apt-get install libwxgtk2.8-dev`
+Some modules will be, probably, necessary.
 
-Also, we need to download the  `mavinit.scr` scipt, that contains some aliases, very useful when doing motors tests.For downloading it , do the following:
+```sudo apt-get install python-opencv python-wxgtk```
+
+```sudo apt-get install python-wxgtk2.8```
+
+```sudo apt-get install python-matplotlib```
+
+```sudo apt-get install libwxgtk2.8-dev```
+
+Also, we need to download the  `mavinit.scr` script, that contains some aliases, very useful when doing motors tests.For downloading it , do the following:
 ```
 wget http://tridge.github.io/MAVProxy/files/mavinit.scr
 ```

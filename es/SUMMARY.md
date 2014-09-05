@@ -13,5 +13,5 @@
 * [GPS test](gps_test/README.md)
 
 # Otros
-* [Ip_forward](es/ip_forward/README.md)
+* [Ip_forward](ip_forward/README.md)
 

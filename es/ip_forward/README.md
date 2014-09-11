@@ -24,3 +24,7 @@ sudo iptables -A FORWARD -j ACCEPT
 sudo  iptables -t nat -A POSTROUTING -s 192.168.7.0/24 -o eth0 -j MASQUERADE
 ```
 
+Ejecuta en la BBB
+```
+sudo route add default gw 192.168.7.1
+```

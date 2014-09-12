@@ -1,5 +1,4 @@
 # Summary
-
 * [Introduction](README.md)
 * [Conectado con la placa](conectado_con_la_placa/README.md)
 * [Copiar una imagen a SDcard](copiar_una_imagen_a_sdcard/README.md)
@@ -11,7 +10,7 @@
 * [Logs de vuelo](logs_de_vuelo/README.md)
 * [Problemas servo: Ajustes](problemas_servo_ajustes/README.md)
 * [GPS test](gps_test/README.md)
-
+* [Representación gráfico de los sensores](graph_accel_gyro/README.md)
 # Otros
 * [Ip_forward](ip_forward/README.md)
 * [Compilación cruzada](Cross_compiler/README.md)

@@ -24,3 +24,15 @@ The process will late about 15-20 minutes.
 
 
 After copying the image to the card (in any of both OS) check in Linux, taht you get  `BEAGLE_PILOT` and `rootfs` mounter.This can be done using the `mount` command.
+
+##### Windows 7
+
+You will need Linux image burner and an USB. You can download one here: http://unetbootin.sourceforge.net/#install
+
+1.- Execute the software, running the .exe file.
+
+2.- Step2: Select `erlerobot-ubuntu.img.gz` image, you may have to decompress it.
+
+4.- Step3: select the USB device you want to be burned with the image. Click accept.
+
+Your SD card is ready

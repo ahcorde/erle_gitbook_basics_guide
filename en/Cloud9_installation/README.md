@@ -29,3 +29,8 @@ You should see something like this in your shell:
 Now you are able to access using a web browser. Type the IP direction ` 192.168.7.2:3131 ` and you should see this:
 
 ![Cloud9](../erleimg/Cloud9Browser.PNG)
+
+Sources:
+
+https://github.com/ajaxorg/cloud9
+http://dotnetdavid.wordpress.com/2013/09/16/beaglebone-black-cloud9-and-bonescript-install-guide/

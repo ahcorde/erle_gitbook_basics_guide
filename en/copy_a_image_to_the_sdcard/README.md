@@ -35,6 +35,6 @@ You will need Linux image burner and an USB. You can download one here: http://u
 
 4.- Step3: select the USB device you want to be burned with the image. Click accept.
 
-![sDcard](../erleimg/LinuxBurner.png)
+![sDcard1](../erleimg/LinuxBurner.png)
 
 Your SD card is ready

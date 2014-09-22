@@ -11,7 +11,21 @@ In order to install Cloud9, you need some capabilities available in your board:
 	
 ###Installation
 
-######Remove Node JS
+######Modifying NodeJS
+
+A little fix is needed in order to run properly nodejs. Got to `./cloud9/configs/default.js ` and comment out the line
+`./cloud9.ide.hg`
+
+If you see that when you try to execute the software as it is said beyond, try this solutions:
+
+`#Install Mercury`
+`brew install hg `
+`brew link mercurial --overwrite`
+
+If this does not work, try the next step, removing nodejs, to install an older version.
+
+
+######Remove Node JS and install older version
 
 Remove Node JS if it is version is v0.10.x:
 

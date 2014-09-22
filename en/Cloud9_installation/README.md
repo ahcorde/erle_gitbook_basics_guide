@@ -11,11 +11,35 @@ In order to install Cloud9, you need some capabilities available in your board:
 	
 ###Installation
 
+######Remove Node JS
+
+Remove Node JS if it is version is v0.10.x:
+
+` sudo apt-get remove nodejs `
+
+Download [node js] (http://nodejs.org/dist/v0.8.25/node-v0.8.25.tar.gz)
+And untar it:
+
+`tar -xvzf node-v0.8.25.tar.gz <directory_you_want> `
+
+Finally, place yourself in the folder and:
+
+`./configure`
+
+`make`
+
+`sudo make install `
+
+*PS: Is good idea to compile it in your desktop instead of on the BeagleBone Black.
+
+######Install Cloud9 and Bonescript
+
 Execute the next commands, within the BBB:
 
 `  git clone https://github.com/ajaxorg/cloud9.git
 	cd cloud9
-	npm install `
+	npm install 
+	npm install bonescript `
 	
 Once you have installed Cloud, this will take a while, execute the script to initialize the web server:
 

@@ -36,7 +36,8 @@ and open `default` file:
 
 Add `Alias ... </Directory>` lines:
 
-` . . .
+` 
+	. . .
     <Directory /var/www/>
             Options Indexes FollowSymLinks MultiViews
             AllowOverride None

@@ -34,10 +34,9 @@ and open `default` file:
 
 `vim default`
 
-Add `Alias ... </Directory>` lines:
+Add ` Alias ... </Directory> ` lines:
 
-` 
-	. . .
+`	. . .
     <Directory /var/www/>
             Options Indexes FollowSymLinks MultiViews
             AllowOverride None

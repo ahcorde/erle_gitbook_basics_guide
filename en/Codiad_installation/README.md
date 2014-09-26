@@ -37,22 +37,35 @@ and open `default` file:
 Add ` Alias ... </Directory> ` lines:
 
 `	. . . `
+
 `    <Directory /var/www/> `
+
 `            Options Indexes FollowSymLinks MultiViews `
+
 `            AllowOverride None `
+
 `            Order allow,deny `
+
 `            allow from all `
+
 `    </Directory> `
-``
+
 `    Alias /codiad /home/demouser/Codiad `
+
 `    <Directory "/home/demouser/Codiad"> `
+
 `            Options -Indexes FollowSymLinks MultiViews `
+
 `            AllowOverride All `
+
 `            Order allow,deny `
+
 `            allow from all `
+
 `    </Directory> `
-``
+
 `    ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/`
+
 `    . . . `
 
 restart apache2:

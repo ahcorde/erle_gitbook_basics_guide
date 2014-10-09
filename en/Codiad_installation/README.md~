@@ -133,8 +133,6 @@ From `url= https://github.com/... .git` to `url =git@github.com:... .git`
 
 Now try to make `git pull `. If you are using `CodeGit`, make left click in the directory where you've cloned the project and click on `Open Codegit`. A new window will appear, click on `settings` and write down your username and mail direction. Now, close this window and try to make `pull`.
 
-Issue: after rebooting BBB, ssh key reads for `/etc/`the keys again, so if you write in Codiad Terminal: `git pull `, you will see a Permission denied error. But, CodeGit is still working properly, so use CodeGit interface to make your push/pulls.
-
 
 
 Sources:

@@ -31,7 +31,7 @@ Eliminando Node JS si la versión es v0.10.x:
 
 ` sudo apt-get remove nodejs `
 
-Descargate [node js] (http://nodejs.org/dist/v0.8.25/node-v0.8.25.tar.gz)
+Descargate [node js](http://nodejs.org/dist/v0.8.25/node-v0.8.25.tar.gz)
 Descomprimelo:
 
 `tar -xvzf node-v0.8.25.tar.gz <directory_you_want> `
